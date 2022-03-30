@@ -1,0 +1,10 @@
+header{
+    background-image: url(img/city.gif);
+    background-size: 90%;
+}
+
+body{background-color: rgba(13, 155, 37, 0.459);}
+
+h1{padding: 5%;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;}
