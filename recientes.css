@@ -3,7 +3,14 @@ header{
     background-size: 90%;
 }
 
-body{background-color: rgba(13, 155, 37, 0.459);}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
 .card {
     position: relative;
     display: flex;
@@ -116,7 +123,3 @@ h1{padding: 5%;
 color: aliceblue;
 font-family: 'Open Sans', sans-serif;
 }
-
-h1{padding: 5%;
-    color: aliceblue;
-    font-family: 'Open Sans', sans-serif;}
