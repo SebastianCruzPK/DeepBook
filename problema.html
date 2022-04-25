@@ -15,7 +15,7 @@
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 col-sm-4">
+      <div class="col-md-8 col-sm-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">Menú</a>
@@ -51,10 +51,9 @@
       
           
         <div class="form-group">
-          <label class="col-sm-3 control-label">Mensaje</label>
-          <div class="col-sm-6" name="msj">
-              <input type="text" class="form-control" required class="form-control""
-                  placeholder="Su mensaje Aqui " />
+            <label for="validationTextarea" class="form-label">Mensaje</label>
+                  <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Ingrese mensaje"
+                    required></textarea>
                   <span id="errorName"></span>
           </div>
       </div>
